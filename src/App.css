@@ -15,7 +15,6 @@ td {
   border: 1px solid #ffffff;
   text-align: left;
   padding: 8px;
-  font-size: 32px;
 }
 
 th {
@@ -34,8 +33,4 @@ form {
 form td:last-child {
   display: flex;
   justify-content: space-evenly;
-}
-
-form * {
-  font-size: 28px;
 }

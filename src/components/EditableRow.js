@@ -4,9 +4,10 @@ const EditableRow = ({
   editFormData,
   handleEditFormChange,
   handleCancelClick,
+  i,
 }) => {
   return (
-    <tr>
+    <tr key={i}>
       <td>
         <input
           type="text"

@@ -125,8 +125,8 @@ const App = () => {
             </tr>
           </thead>
           <tbody>
-            {contacts.map((contact) => (
-              <Fragment>
+            {contacts.map((contact, i) => (
+              <Fragment key={i}>
                 {editContactId === contact.id ? (
                   <EditableRow
                     editFormData={editFormData}
